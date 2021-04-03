@@ -1,0 +1,83 @@
+* {
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+}
+   
+/* body takes up full viewport and extends all the way to the edges. */
+html, body {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+    
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header li, nav, .nav-links {
+    border: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    width: 50%;
+    height: 70%;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    border: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: auto;
+}
+
+article {
+    width: 75%;
+    height: 96%;
+}
+
+aside {
+    width: 25%;
+    height: 96%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copy {
+    border: none;
+}
+
+.copy a {
+    text-decoration: none;
+}
+
+li {
+    border: none;
+    /* padding: 0px; */
+    margin: 0px;
+    position: relative;
+}
+
+ul.footer-2 {
+    border: 2px solid cornflowerblue;
+    padding: 0px;
+}
